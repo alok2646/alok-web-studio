@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Studio headphones product illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5f2ee"/>
+      <stop offset="100%" stop-color="#e3ddd7"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0%" stop-color="#bbbbbb"/>
+      <stop offset="100%" stop-color="#8a8a8a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#5b5b5b" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M200 470 C200 274 278 180 400 180 C522 180 600 274 600 470 L600 500 H545 V470 C545 335 496 258 400 258 C304 258 255 335 255 470 V500 H200 Z" fill="url(#metal)"/>
+    <path d="M200 470 C200 325 280 250 400 250 C520 250 600 325 600 470" fill="none" stroke="#d6d6d6" stroke-width="10" opacity="0.9"/>
+    <rect x="186" y="515" width="120" height="246" rx="48" fill="#2b2f36"/>
+    <rect x="494" y="515" width="120" height="246" rx="48" fill="#2b2f36"/>
+    <rect x="287" y="565" width="60" height="200" rx="24" fill="#d2d2d2" opacity="0.5"/>
+    <rect x="453" y="565" width="60" height="200" rx="24" fill="#d2d2d2" opacity="0.5"/>
+    <rect x="214" y="535" width="58" height="135" rx="22" fill="#171b1d"/>
+    <rect x="528" y="535" width="58" height="135" rx="22" fill="#171b1d"/>
+    <rect x="310" y="610" width="180" height="42" rx="20" fill="#171b1d" opacity="0.7"/>
+  </g>
+</svg>

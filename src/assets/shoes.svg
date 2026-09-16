@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#F5F4F2"/>
+  <path d="M300 480 C380 360 820 360 900 480 L900 560 C820 520 380 520 300 560 Z" fill="#D4C6BD" />
+  <text x="50%" y="72%" text-anchor="middle" fill="#6b6b6b" font-size="30" font-family="Inter">Classic Leather Shoes</text>
+</svg>

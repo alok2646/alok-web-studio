@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Wool knit scarf product illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8f3ef"/>
+      <stop offset="100%" stop-color="#e8ddcf"/>
+    </linearGradient>
+    <linearGradient id="scarf" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d7ae7c"/>
+      <stop offset="50%" stop-color="#b88461"/>
+      <stop offset="100%" stop-color="#8d5c45"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#56392d" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M200 308 C260 220 330 180 400 190 C470 200 540 228 600 300 L670 630 C685 700 660 770 600 782 L525 750 C512 650 478 585 410 560 C342 535 300 585 283 750 L200 782 C140 770 115 700 130 630 Z" fill="url(#scarf)"/>
+    <path d="M220 318 C315 380 340 450 347 545 C332 620 300 653 198 620" fill="none" stroke="#e6c49d" stroke-width="16" opacity="0.65"/>
+    <path d="M580 318 C485 380 460 450 453 545 C468 620 500 653 602 620" fill="none" stroke="#e6c49d" stroke-width="16" opacity="0.65"/>
+    <path d="M345 425 L455 425" stroke="#f7e0ba" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+    <path d="M335 500 L465 500" stroke="#f7e0ba" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+    <path d="M320 575 L480 575" stroke="#f7e0ba" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+    <path d="M255 705 L350 770" stroke="#8a563d" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+    <path d="M545 705 L450 770" stroke="#8a563d" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
